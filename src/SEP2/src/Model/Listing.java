@@ -6,13 +6,13 @@ import Model.Date;
 public class Listing
 {
   private int id;
-  private Model.Address address;
+  private Address address;
   private int numberOfRooms;
   private int numberOfBathrooms;
   private boolean balcony;
   private float surfaceArea;
   private  int price;
-  private Model.Date lastRenovated;
+  private Date lastRenovated;
   private int ownerId;
   private int maxNumberOfPeople;
   private boolean isBooked;
